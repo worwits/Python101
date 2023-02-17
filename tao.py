@@ -101,5 +101,12 @@ tao.pendown()
 tao.forward(58)
 tao.penup()
 
+tao.goto(x=50,y=50)
+tao.pendown()
+for i in range(8):
+    tao.circle(25)
+    tao.left(45)
+tao.penup()
+
 tao.goto(x=-260,y=260)
     
